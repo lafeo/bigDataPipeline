@@ -1,0 +1,23 @@
+# Secrets — never commit these
+.env
+config.py
+
+# Large data files
+data/*.json
+data/*.xlsx
+data/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pyenv/
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Visualizations (generated — not source)
+visualizations/*.png
